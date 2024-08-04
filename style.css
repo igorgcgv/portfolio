@@ -1,8 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}/*Resetando o padrão de navegadores, tamanho de margem etc...*/
+
 body {
-    background-color:darkcyan;
-    color: #F6F6F6;
-}
+    background-color:#ffffff;
+    color: #000000;
+}/*Definindo a cor da tag body*/
 
 .titulo-destaque {
-    color:#22D4FD;
-}
+    color:#F7DC6A;
+}/*Definindo a cor de uma classe htlm */
