@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Gruppo&display=swap');/*Importando fontes para o projeto*/
+
 * {
     margin: 0;
     padding: 0;
 }/*Resetando o padrão de navegadores, tamanho de margem etc...*/
 
 body {
+    height: 100vh;/*Utilizando 100% da tela do navegador*/
+    box-sizing: border-box; /*Declarando que nada/nenhuma imagem/texto sai das limitações da tag body*/
     background-color:#ffffff;
     color: #000000;
 }/*Definindo a cor da tag body*/
@@ -11,3 +15,50 @@ body {
 .titulo-destaque {
     color:#F7DC6A;
 }/*Definindo a cor de uma classe htlm */
+
+.apresentacao {
+    margin: 10%;
+    flex-direction: column ;
+    display: flex;
+    align-items: center;
+
+}/* Separando os elementos dentro da pagina*/
+
+.apresentacao__conteudo {
+    width: 600px;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}/*Definir uma largura para a seção*/
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+}
+
+.apresentacao__link {
+    display: flex;
+    justify-content: center;
+} /*Posicionando o botão "GitHub"*/
+
+.apresentacao_link_link {
+    background-color: #F7DE72;
+    width: 150px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #787272;
+    font-family: "Gruppo", sans-serif;
+    
+}
